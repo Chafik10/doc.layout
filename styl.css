@@ -13,23 +13,23 @@ body {
 }
 
 .logo {
-    width: 70%;
     margin-top: 1.9%;
+    width: 70%;
 }
 
 .logo img {
-    width:35%;
+    width:300px;
 }
 
 .lien {
     width: 30%;
     display: flex;
-    margin-top: 2%;
+    margin-top: 1.9%;
 }
 
 .lien a {
-    color: rgb(0,197,155);
-    margin:18px;
+    color: rgb(3, 177, 139);
+    margin:16px;
 }
 
 .log {
@@ -45,7 +45,7 @@ body {
 
 .deb-title {
     text-align: center;
-    color: rgb(0,197,155) ;
+    color: rgb(3, 177, 139) ;
     font-family: Work Sans,Arial,sans-serif;
     font-weight: 300;
     font-size: 34px;
@@ -110,17 +110,13 @@ body {
     margin-left: 10%;
 }
 
-.list-links ul {
-    list-style-type: none;
-}
-
 .list-links li {
-    float:left;
+    display: inline;
     margin-right: 15px;
 }
 
 .list-links li a {
-    color:rgb(196,196,196);
+    color:rgb(201, 201, 201);
 }
 
 
@@ -130,13 +126,11 @@ body {
 }
 
 .instq {
-    background-color: #bee1e6;
+    background-color: #b8e6ed;
     display: flex;
+    padding: 6%;
     height: 400px;
-    padding: 4%;
     overflow: hidden;
-
-
 }
 
 .contain {
@@ -145,20 +139,21 @@ body {
 
 .contain h1{
     color: #00ccb1;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
-.logooo img {
+.logooo {
     height: 500px;
-    width: 100%;
+    width: 130%;
     margin-top: 5%;
+
 }
 
 .stat {
     width: 50%;
+    margin-left: 20%;
     text-align: center;
-    margin-left: 10%;
+
 }
 
 .stat h1{
@@ -168,10 +163,11 @@ body {
 }
 
 .box {
-    height: 200px;
-    background-color: white;
-    width: 50%;
     margin-right: 5%;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .box p {
