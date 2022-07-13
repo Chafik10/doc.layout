@@ -1,249 +1,244 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Docplanner</title>
-  <link rel="stylesheet" href="styl.css">
-<style>
-body {
-  background-color: rgba(255, 255, 255, 0.877);
+* {
+    box-sizing: inherit;
 }
-</style>
-</head>
-<body>
-  <header>
-    <nav class="nav">
-      <div class="logo">
-        <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="DocplannerLogo"/>
-      </div>
-      <div class="lien">
-        <a href >About us</a>
-        <a href >Career</a>
-        <a href >Departments</a>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="deb">
-      <img class="log-img" src="https://www.docplanner.com/img/sygnet.png" alt="">
-      <h1 class="deb-title">
-        Making the healthcare experience more human
-      </h1>
-      <div class="deb-box">
-        <p class="PARA1">
-          We want patients to find the perfect doctor and book an
-          appointment in the most easy way. The patient journey should be  
-          enjoyable, and that's why we are always next to them: to help them 
-          find the best possible care. Anytime, anywhere.
-        </p>
-        <p class="PARA2">
-          We also help doctors to better manage their practice and build their
-          online reputation. With our integrated end-to-end solution, doctors 
-          are able not only to improve their online presence, but also to 
-          devote their time to what really matters: their patients.
-        </p>
-      </div>
-    </section>
-    
-    
-    <section class="serv">
-      <div class="cont p">
-        <div class="icon-patient">
-          <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="">
-        </div>
-          <h1>For patient</h1>
-          <h2>Find a doctor book a visit and solve any
-              health-related doubt</h2>
-          <div>
-            <select class="ch" name="" id="">
-              <option style="color: white" value="">Choose a country</option> 
-            </select>
-          </div>
-      </div>
+body {
+    color: #747474;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-      <div class="cont d">
-        <div class="icon-doctors">
-          <img src="https://www.docplanner.com/icons/icon-doctors.svg">
-        </div>
-        <h1>For doctors</h1>
-        <h2> Save time managing visits
-           and cut no-shows by half</h2>
-           <div>
-            <select class="ch" name="" id="">
-              <option style="color: white" value="">Choose a country</option> 
-            </select>
-          </div>
-      </div>
+.nav {
+    display: flex;
+}
 
-      <div class="cont c">
-        <div class="icone clinics">
-          <img src="https://www.docplanner.com/icons/icon-clinics.svg">
-        </div>
-        <h1>For clinics</h1>
-        <h2>Deliver an exceptional patient 
-          experience in your clinic</h2>
-          <div>
-            <select class="ch" name="" id="">
-              <option style="color: white" value="">2 to 20 Specialist</option> 
-            </select>
-          </div>
-      </div>
-    </section>
+.logo {
+    margin-top: 1.9%;
+    width: 70%;
+}
 
+.logo img {
+    width:300px;
+}
 
-    
+.lien {
+    width: 30%;
+    display: flex;
+    margin-top: 1.9%;
+}
 
-    <section class="links">
-      <h1 style="color:#00ccb1 ;">
-          We are a global company <br> 
-          with local culture
-      </h1>
-      <div class="list-links">
-        <ul>
-          <li>
-            <a href="#">ZnanyLeKarez</a>
-          <li>
-            <a href="#">Doctoralia</a></li>
-          <li>
-            <a href="#">MioDottore</a></li>
-          <li>
-            <a href="#">DoktorTakvimi</a></li>
-        </ul>
-      </div>
-    </section>
-    
+.lien a {
+    color: rgb(3, 177, 139);
+    margin:16px;
+}
 
+.log {
+    width: 5Opx;
+    height: 50px;
+}
 
-    <section class="instq">
-      <div class="contain">
-         <h1> The world's biggest <br> healthcare platform</h1>
-         <p class="pp"> We work from 8 offices all over the world, bringing Docplanner <br> Group to life in 13 countries</p>
-        <img class="logooo" src="https://www.docplanner.com/img/logo.png"/>
-     </div>
+.deb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-      <div class="tat">
-        <div class="parent1">
-          <div class="box">
-              <img src="https://www.docplanner.com/img/flag.png"/>
-              <h1>Leader in 13 countries</h1>
-              <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
-          </div>
-          <div class="box">
-              <img src="https://www.docplanner.com/img/visits.png"/>
-              <h1>7,500,000 <br> appointments</h1>
-              <p>booked last month</p>
-          </div>
-        </div>
+.deb-title {
+    text-align: center;
+    color: rgb(3, 177, 139) ;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.log-img{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.deb-box{
+    display: flex;
+    margin-left: 8%;
+    width: 100%;
+    line-height: 1.75;
+}
+
+.PARA1 {
+    margin-right: 5%;
+}
+
+.serv {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    background-color: white;
+    width: 320px;
+    height: 300px;
+    margin: 10px;
+    color: white;
+    margin-top: 5% ;
+    border-radius: 10px;
+    padding: 32px  ;
+    flex-direction: column;
+
+}
+
+.p {
+    background: #00ccb1;
+}
+
+.d {
+    background: #3d83df;
+}
+
+.c {
+    background: #1b2734;
+}
+
+.links{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.list-links {
+    width:70%;
+    margin-left: 10%;
+}
+
+.list-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.list-links li a {
+    color:rgb(201, 201, 201);
+}
 
 
+.ch {
+    background: none;
+    color: azure;
+}
 
-        <div class="parent2">
-          <div class="box">
-              <img src="https://www.docplanner.com/img/patients.png"/>
-              <h1>80,000,000 <br> patients</h1>
-              <p>visit our websites each month</p>
-          </div>
-          <div class="box">
-              <img src="https://www.docplanner.com/img/doctors.png"/>
-              <h1>130,000 <br> active doctors</h1>
-              <p>trust our solutions</p>
-          </div>
-        </div>
-      </div>
-    </section>
+.instq {
+    background-color: #b8e6ed;
+    display: flex;
+    padding: 6%;
+    height: 400px;
+    overflow: hidden;
+}
 
+.contain {
+    width: 35%;
+}
 
-    <section class="txt">
-      <div class="dtxt">
-        <h1>Improve the lives of millions. <br> Change yours forever.</h1>
-        <p> More than 2,200 team mates share our same vision, goals and passion. <br>
-            With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Bologna, <br>
-            Mexico City and Curitiba, our search for great talent never stops. <br></p>
-      </div>
-    </section>
-    
-    
-    
-    <section class="payss">
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/warsaw.png" alt="">
-        <div class="texte">
-          <p>Warsaw</p>
-          <button type="button">See openings</button>
-        </div>
+.contain h1{
+    color: #00ccb1;
+    margin-bottom: 3%;
+}
 
-      </div>
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/barcelona.png" alt="">
-        <div class="texte">
-          <p>barcelona</p>
-          <button type="button">See openings</button>
-        </div>
-      </div>
+.logooo {
+    height: 500px;
+    width: 130%;
+    margin-top: 5%;
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/munich.png" alt="">
-        <div class="texte">
-          <p>Munich</p>
-          <button type="button">See openings</button>
-        </div>
-      </div>
+}
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/istanbul.png" alt="">
-        <div class="texte">
-          <p>Istanbul</p>
-          <button type="button">See opening</button>
-        </div>
-      </div>
+.tat {
+    width: 50%;
+    margin-left: 20%;
+    text-align: center;
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/rome.png" alt="">
-        <div class="texte">
-          <p>Rom</p>
-          <button type="button">See openings</button>
-        </div>
-      </div>
+}
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/bologna.png" alt="">
-        <div class="texte">
-          <p>Bologna</p>
-          <button type="button">See openings</button>
-        </div>
-      </div>
+.tat h1{
+    color: #00ccb1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/curitiba.png" alt="">
-        <div class="texte">
-          <p>Curitiba</p>
-          <button type="button">see opening</button>
-        </div>
-      </div>
+.box {
+    margin-right: 5%;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
 
-      <div class="pays">
-        <img src="https://www.docplanner.com/images/mexico-city.png" alt="">
-        <div class="texte">
-          <p>Mexico City</p>
-          <button type="button">See openings</button>
-        </div>
-      </div>
-      
-    </section>
+}
 
+.box p {
+    font-size: 12px;
+}
 
-    <section>
-      <h1 class="tx">Sound interesting? Join us now!</h1>
-      <button class="x">See all current openings</button>
-    </section>
-  </main>
-  <footer class="final">
-    <hr>
-    <p>
-      This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.
-    </p>
-    <p class="url">
-      www.docplanner.com © 2022
-    </p>
-  </footer>
-</body>
-</html>
+.parent1 {
+    display: flex;
+}
+
+.parent2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.txt{
+    margin: 5%;
+}
+
+.dtxt h1 {
+    text-align: center;
+    color: rgb(0,197,155) ;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+
+.dtxt p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   
+}
+
+.payss{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: start;
+}
+
+.pays {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 15px;
+}
+
+.pays img {
+    width: 300px
+}
+
+.tx {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1px;
+}
+
+.x {
+    margin-left: 43%;
+    background-color: #3d83df;
+    color: azure;
+    border: #3d83df;
+    height: 30px;
+}
+
+.final {
+    padding: 20px;
+}
+
+.url{
+    text-align: center
+}
+button {
+    background: #3d83df;
+    color: white;
+}
